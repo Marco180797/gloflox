@@ -11,3 +11,152 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-floating {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
+  overflow: hidden;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  width: 47px;
+  height: 47px;
+}
+
+/* ESTILOS FOOTER */
+.btn-floating i {
+  display: inline-block;
+  width: inherit;
+  color: #fff;
+}
+.btn-floating i {
+  font-size: 1.25rem;
+  line-height: 47px;
+}
+
+.btn-fb {
+  color: #fff;
+  background-color: #3b5998 !important;
+}
+
+.btn-tw {
+  color: #fff;
+  background-color: #55acee !important;
+}
+
+.btn-ins{
+  color: #fff;
+  background-color: #ec4a89 !important;
+}
+
+.bottomFooter ul {
+  list-style-type: none;
+  display: inline-block;
+  width: fit-content;
+  padding: 0;
+  margin: 0;
+}
+
+/*  ESTILOS FOOTER */ 
+
+.image-card{
+  max-height: 300px!important;
+  min-height: 300px!important;
+  max-width: 450px!important;
+  min-width: 450px!important;
+}
+
+
+/*ESTILOS LOGIN*/
+.card-img-left {
+  width: 45%;
+  background: scroll center url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/getting-fit-one-lift-at-a-time-royalty-free-image-1568023811.jpg');
+  background-size: cover;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-google {
+  color: white !important;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #3b5998;
+}
+
+/*END ESTILOS LOGIN*/
+
+/*ESTILOS TIENDAONLINE*/
+.image-cardTienda{
+  max-height: 180px!important;
+  min-height: 180px!important;
+  max-width: 190px!important;
+  min-width: 190px!important;
+}
+
+.price-text{
+color: #ea4335;
+}
+/*END ESTILOS TIENDAONLINE*/
+
+.border-md {
+  border-width: 2px;
+}
+
+.btn-facebook {
+  background: #405D9D;
+  border: none;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+  background: #314879;
+}
+
+.btn-twitter {
+  background: #42AEEC;
+  border: none;
+}
+
+.btn-twitter:hover, .btn-twitter:focus {
+  background: #1799e4;
+}
+
+
+
+/*ESTILOS LOGIN SUSCRIPCION*/
+
+body {
+  min-height: 100vh;
+}
+
+.form-control:not(select) {
+  padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+  height: 52px;
+  padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+  color: #ccc;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+/* END ESTILOS LOGIN SUSCRIPCION*/
