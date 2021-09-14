@@ -2,27 +2,24 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function addCart(event) {
-    
+
     const title = event.target.getAttribute('data-title');
     const precio = event.target.getAttribute('data-precio');
     const image = event.target.getAttribute('data-image');
-    
+
     const product = { "title": title, "precio": precio, "image": image };
-    
+
     let cart = [];
     const arrayProducts = localStorage.getItem('products');
 
-    if(arrayProducts != null){
+    if (arrayProducts != null) {
         cart = JSON.parse(arrayProducts);
-    }    
+    }
     cart.push(product);
-    
     localStorage.setItem('products', JSON.stringify(cart));
-
     alert('Tu producto se agrego al carrito');
 
 }
-
 const CardProductos = ({ title, image, precio }) => (
     <>
         <div className="cardcard col-3 mx-2 mt-3">
@@ -42,6 +39,7 @@ const CardProductos = ({ title, image, precio }) => (
         </div>
     </>
 )
+
 CardProductos.propTypes = {
     title: PropTypes.string,
     imag: PropTypes.string,

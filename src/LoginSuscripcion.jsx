@@ -1,5 +1,7 @@
 import react from "react";
 
+
+
 function LoginSuscripcion() {
     return (
         <div>
@@ -19,9 +21,7 @@ function LoginSuscripcion() {
                     <div className="col-md-5 pr-lg-5 mb-5 mb-md-0">
                         <h1>Crear Cuenta</h1>
                         <img src="https://st2.depositphotos.com/4406529/6475/i/450/depositphotos_64754123-stock-photo-woman-with-toned-body.jpg" alt className="img-fluid mb-3 d-none d-md-block" />
-
                     </div>
-
                     <div className="col-md-7 col-lg-6 ml-auto">
                         <form action="#">
                             <div className="row">
@@ -85,8 +85,8 @@ function LoginSuscripcion() {
                                 </div>
 
                                 <div className="form-group col-lg-12 mx-auto mb-0">
-                                    <a href="#" className="btn btn-primary btn-block py-2">
-                                        <span className="font-weight-bold">Crear tu Cuenta</span>
+                                    <a href="/inicio" className="btn btn-primary btn-block py-2">
+                                        <span className="font-weight-bold" >Crear tu Cuenta</span>
                                     </a>
                                 </div>
 
@@ -97,18 +97,17 @@ function LoginSuscripcion() {
                                 </div>
 
                                 <div className="form-group col-lg-12 mx-auto">
-                                    <a href="#" className="btn btn-primary btn-block py-2 btn-facebook">
+                                    <a href="/inicio" className="btn btn-primary btn-block py-2 btn-facebook">
                                         <i className="fa fa-facebook-f mr-2" />
                                         <span className="font-weight-bold">Continuar con Facebook</span>
                                     </a>
-                                    <a href="#" className="btn btn-primary btn-block py-2 btn-twitter">
+                                    <a href="/inicio" className="btn btn-primary btn-block py-2 btn-twitter">
                                         <i className="fa fa-twitter mr-2" />
                                         <span className="font-weight-bold">Continuar con Twitter</span>
                                     </a>
                                 </div>
-
                                 <div className="text-center w-100">
-                                    <p className="text-muted font-weight-bold">Ya tienes cuenta? <a href="#" className="text-primary ml-2">Iniciar Sesión</a></p>
+                                    <p className="text-muted font-weight-bold">Ya tienes cuenta? <a href="/Login" className="text-primary ml-2">Iniciar Sesión</a></p>
                                 </div>
                             </div>
                         </form>
@@ -116,7 +115,6 @@ function LoginSuscripcion() {
                 </div>
             </div>
         </div>
-
     );
 
 }

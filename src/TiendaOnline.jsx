@@ -58,8 +58,6 @@ const Tienda = [
 
     }
 ]
-
-
  function TiendaOnline() {
     return (
         <div className="row d-flex justify-content-center w-100">
@@ -69,10 +67,7 @@ const Tienda = [
                         title={c.title}
                         image={c.image}
                         precio={c.precio}
-                        
-                       
                     />
-        
                 )
             }
         </div>

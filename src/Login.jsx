@@ -26,20 +26,20 @@ function Login() {
                 </div>
 
                 <div className="d-grid mb-2">
-                  <button className="btn btn-lg btn-primary btn-login fw-bold text-uppercase w-100" type="submit">Ingresar</button>
+                  < a href="/inicio" className="btn btn-lg btn-primary btn-login fw-bold text-uppercase w-100" type="submit">Ingresar</a>
                 </div>
                 <a className="d-block text-center mt-2 small" href="#">Olvido su contraseña? </a>
                 <a className="d-block text-center mt-2 small" href="/crearCuenta">Crear Cuenta </a>
                 <hr className="my-4" />
                 <div className="d-grid mb-2">
-                  <button className="btn btn-lg btn-google btn-login fw-bold text-uppercase w-100" type="submit">
+                  < a href="/inicio" className="btn btn-lg btn-google btn-login fw-bold text-uppercase w-100" type="submit">
                     <i className="fab fa-google me-2" /> Iniciar sesión con Google
-                  </button>
+                  </a>
                 </div>
                 <div className="d-grid">
-                  <button className="btn btn-lg btn-facebook btn-login fw-bold text-uppercase w-100" type="submit">
+                  < a href="/inicio" className="btn btn-lg btn-facebook btn-login fw-bold text-uppercase w-100" type="submit">
                     <i className="fab fa-facebook-f me-2" />Iniciar sesión con Facebook
-                  </button>
+                  </a>
                 </div>
               </form>
             </div>

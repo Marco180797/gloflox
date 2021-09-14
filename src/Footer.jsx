@@ -1,5 +1,9 @@
 import React from "react";
 
+function suscribete() {
+    alert('Suscripsión Exitosa');
+}
+
 function Footer() {
     return (
         <div>
@@ -11,7 +15,7 @@ function Footer() {
                         <form>
                             <div className="mt-3">
                                 <input type="email" placeholder="Correo Electrónico" />&nbsp;
-                                <a href="#" className="btn btn-danger btn-rounded ml-9">Suscribete</a>
+                                <a href="#" className="btn btn-danger btn-rounded ml-9" onClick={suscribete}>Suscribete</a>
                             </div>
                             <input type="checkbox" id="polPri" /> <label htmlFor="polPri">He leído y acepto las políticas de privacidad</label>
                         </form>
